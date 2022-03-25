@@ -1,8 +1,21 @@
+* {
+  font-family: 'Titan One', monospace;
+}
+
+.title {
+  font-size: 72px;
+}
+
+#game {
+  padding-top: 100px;
+}
+
 .grid {
   width: 606px;
   height: 606px;
   display: flex;
   flex-wrap: wrap;
+  margin: auto;
 }
 
 .square {
@@ -12,5 +25,14 @@
 }
 
 .mole {
-  background-color: brown;
+  background-image: url("mole.jpeg");
+  background-size: cover;
+}
+
+span {
+  display: flex;
+}
+
+h2 {
+  padding-right: 5px;
 }
